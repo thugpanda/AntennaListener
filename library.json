@@ -1,0 +1,21 @@
+{
+	"name": "Antenna Listener",
+	"version": "1.0",
+	"keywords": "spike detection, data processing",
+	"description": "Library for detecting spike on analog signals",
+	"authors":
+	[
+		{
+		"name": "thugpanda",
+		"email": "webmaster@thugpanda.de",
+		"url": "https://www.thugpanda.de/about",
+		"maintainer": true
+		}
+	],
+	"repository":
+	{
+		"type": "git",
+		"url": "https://github.com/thugpanda/AntennaListener.git"
+	},
+	"frameworks": "arduino"
+}
