@@ -12,11 +12,11 @@ AntennaListener(int ap_, int t_, int l_, uint8_t soa_, float _std);
 ```
 The constructor needs the following arguments:
 
-* int ap_: AntennaPin, the analogPin on which the RF-Signals gets read.
-* int t_: Fixed threshold value at which a reading counts as a spike.
-* int l_: stdLag, how many samples are backtracked.
-* uint8_t: Size of the average & std array. Max 255 values. Normally about 10-25 is a good sample size. Higher value is more  stable and therefore "slower" triggering.
-* float _std: How big the standard deviation of a value has to be in order to trigger the detection. Depending on the signal values near 0 or as high as multiple deviations are suitable.
+* `int ap_`: AntennaPin, the analogPin on which the RF-Signals gets read.
+* `int t_`: Fixed threshold value at which a reading counts as a spike.
+* `int l_`: stdLag, how many samples are backtracked.
+* `uint8_t`: Size of the average & std array. Max 255 values. Normally about 10-25 is a good sample size. Higher value is more  stable and therefore "slower" triggering.
+* `float _std`: How big the standard deviation of a value has to be in order to trigger the detection. Depending on the signal values near 0 or as high as multiple deviations are suitable.
 
 ```
 void AntennaListener::begin(int buffer[]);
