@@ -2,6 +2,9 @@
 *Antenna Listener* is a library for Arduino and Teensy-like systems. It is able to detect spikes in antenna signals which are send to one of the ADCs of the MCU.  
 It is published under *GNU General Public License 3.0*.
 
+## Download
+Download this folder as a .zip and extract it. Remove the *-master* from the name and move the folder to your Arduino IDE Library folder. Restart the IDE.
+
 ## Library
 #### Constructor
 ```
