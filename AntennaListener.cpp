@@ -208,7 +208,7 @@ int AntennaListener::readAntennaStore() {
     return _analogIn;
 }
 
-uint8_t AntennaListener::readOnlySpikeCounter() {
+uint16_t AntennaListener::readOnlySpikeCounter() {
     /* Read the value but do not reset.
      */
     return _spikeCounter;
