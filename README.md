@@ -3,7 +3,7 @@
 It is published under *GNU General Public License 3.0*.
 
 ## Download
-Download this folder as a .zip and extract it. Remove the *-master* from the name and move the folder to your Arduino IDE Library folder. Restart the IDE.
+[Head over to the releases](https://github.com/thugpanda/AntennaListener/releases) and extract the downloaded folder. Move it to your Arduino IDE Library folder. Restart the IDE. Import it using `#import <AntennaListener.h>`.
 
 ## Library
 #### Constructor
